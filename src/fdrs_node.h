@@ -70,7 +70,7 @@ time_t netTimeOffset=UINT32_MAX;          // Offset network time by the 1/2 the 
 void beginFDRS()
 {
 #ifdef FDRS_DEBUG
-  Serial.begin(115200);
+  Serial.begin(76800);
   // // find out the reset reason
   // esp_reset_reason_t resetReason;
   // resetReason = esp_reset_reason();
