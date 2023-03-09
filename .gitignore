@@ -1,8 +1,8 @@
 .pio
 .vscode
-credentials.h
-hostdefs.h
+src/credentials.h
+src/hostdefs.h
 platformio.ini
 README.md
-main.cpp
-fdrs_node_config.h
+src/main.cpp
+src/fdrs_node_config.h

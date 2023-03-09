@@ -7,15 +7,15 @@
 #define READING_ID    42   //Unique ID for this sensor
 #define GTWY_MAC      0xef //Address of the nearest gateway
 
-//#define USE_ESPNOW
-#define USE_LORA
+#define USE_ESPNOW
+// #define USE_LORA
 //#define DEEP_SLEEP
 //#define POWER_CTRL    14
 #define FDRS_DEBUG
 #define DEBUG_CONFIG // Displays full config info on startup
 
 // OLED -- Displays console debugging messages on an SSD1306 I²C OLED
-#define USE_OLED    
+// #define USE_OLED    
 #define OLED_HEADER "FDRSSN"
 #define OLED_SDA 21
 #define OLED_SCL 22
