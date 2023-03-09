@@ -91,10 +91,10 @@ bool setTime(time_t previousTime) {
   localtime_r(&now, &timeinfo);
   // Check for DST/STD time and adjust accordingly
   checkDST();
-  // loadFDRS(now, STATUS_T, READING_ID);
-  // loadFDRS(slewSecs, STATUS_T, READING_ID);
+  loadFDRS(now, STATUS_T, READING_ID);
+  loadFDRS(slewSecs, STATUS_T, READING_ID);
   // Why are LoRa Acks not received if sendFDRS() below is uncommented??
-  // sendFDRS();
+  sendFDRS();
   if(validTime()) {
     lastTimeSetEvent = millis();
     printTime();

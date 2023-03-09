@@ -4,7 +4,7 @@
 
 #include <fdrs_globals.h>
 
-#define READING_ID    42   //Unique ID for this sensor
+#define READING_ID    88   //Unique ID for this sensor
 #define GTWY_MAC      0xef //Address of the nearest gateway
 
 #define USE_ESPNOW
